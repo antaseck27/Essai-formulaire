@@ -1,0 +1,118 @@
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    
+}
+.container .left{ 
+    float: left;
+    width: 50%;
+    height: 80vh;
+    padding-left: 5%;
+    background-color: pink;
+
+}
+
+.left .ligne{
+    border: none;
+    background-color: pink;
+    border-bottom: 2px solid purple;
+    width: 75%;
+    height: 20px;
+}
+.left h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.left h3{
+    color: purple;
+}
+
+.left .button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ajou{
+    height: 100px;
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+    width: 400px;
+    align-items: left;
+    justify-content: center;
+    text-align: right;
+}
+
+.ajou a{
+    color: black;
+    text-decoration: none;
+    background-color: purple;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.ajou{
+    display: flex;
+    gap: 23PX;
+    margin-left: -16PX;
+}
+
+
+
+.personne {
+  height: 30%;
+  display: flex;
+    border-radius: 20px;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    justify-content: left;
+    align-items: right;
+
+}
+
+span{
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    margin-top: 4px;
+    
+}
+
+.container .right{
+    width: 50%;
+    height: 80vh;
+    background: url("img/recettes-d-ete-bonnes-idees-pour-le-diner.jpeg") ;    
+    background-size: cover; 
+    background-position: center;
+}
+
+button{
+    border: none;
+    width: 15vh;
+    height: 6vh;
+    margin-top: -100vh;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px purple;
+}
+
+.Booking a{
+    text-decoration: none;
+    color: black;
+
+}
